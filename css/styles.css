@@ -99,8 +99,6 @@ img {
 }
 
 
-/* --- Team section --- */
-/* Button/link polish inside cards */
 #team .card .btn-outline-primary {
   border-color: #630031;
   color: #630031;
@@ -110,7 +108,6 @@ img {
   color: #fff;
 }
 
-/* Tidy the Students toggle */
 #team .btn-link {
   color: #630031;
   text-decoration: none;
@@ -121,10 +118,9 @@ img {
 
 .team-section {
   padding: 7% 15%;
-  background-color: #f8f9fa; /* light contrast against your maroon sections */
+  background-color: #f8f9fa;
 }
 
-/* Circular headshots, consistent sizing */
 .team-photo {
   height: 150px;
   object-fit: cover;
@@ -133,9 +129,8 @@ img {
   margin: 20px auto 0; /* center in card */
 }
 
-/* --- School logos row --- */
 .school-logo {
-  max-height: 200px;      /* consistent size */
+  max-height: 200px;
   object-fit: contain;
   transition: transform 0.2s ease;
 }
