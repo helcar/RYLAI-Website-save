@@ -224,3 +224,24 @@ img {
   color: #fff;
   transform: translateY(-1px);
 }
+
+
+/* Participate page */
+.participate-section {
+  background-color: #f8f9fa;
+}
+
+.study-card .card-title {
+  color: #630031;
+}
+
+.study-btn.btn-primary {
+  background-color: #630031;
+  border-color: #630031;
+  font-weight: 600;
+}
+
+.study-btn.btn-primary:hover {
+  background-color: #CF4520;
+  border-color: #CF4520;
+}
