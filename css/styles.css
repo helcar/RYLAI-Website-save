@@ -180,3 +180,13 @@ img {
   margin: 0 auto;
   object-fit: contain;  /* ensures the whole image is visible */
 }
+
+
+.recruitment-div {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  height: 200px;
+  border: 3px solid #73AD21;
+}
