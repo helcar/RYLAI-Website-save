@@ -151,6 +151,8 @@ img {
   object-fit: contain; /* fit within box; for tall images this fits height */
   object-position: center;
   background-color: #f8f9fa; /* optional: nice “frame” behind the gaps */
+  max-width: none;     /* overrides img { max-width: 75%; } */
+  display: block;
 }
 
 
