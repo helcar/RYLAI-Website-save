@@ -146,8 +146,11 @@ img {
 
 /* Big-head photos: fit entire image inside fixed photo area */
 .team-photo-contain {
-  object-fit: contain;        /* show full photo */
-  background-color: #f8f9fa;  /* avoids harsh empty space */
+  width: 220px;        /* keep the same area size */
+  height: 150px;       /* keep the same area size */
+  object-fit: contain; /* fit within box; for tall images this fits height */
+  object-position: center;
+  background-color: #f8f9fa; /* optional: nice “frame” behind the gaps */
 }
 
 
