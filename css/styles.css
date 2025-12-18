@@ -171,9 +171,47 @@ img {
 #footer {
   text-align: center;
   background-color: #630031;
+  color: #ffffff;
   padding: 2%;
   padding-bottom: 5px;
 }
+
+/* Upper footer link section */
+.footer-links {
+  padding: 40px 0 20px;
+}
+
+.footer-links h5 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #ffffff;
+}
+
+.footer-links ul li {
+  margin-bottom: 8px;
+}
+
+.footer-links a {
+  color: rgba(255, 255, 255, 0.85);
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.footer-links a:hover {
+  color: #CF4520;
+  text-decoration: underline;
+}
+
+/* Bottom bar */
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  text-align: center;
+  padding: 15px 0;
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
 
 
 /* Figure in the each project website */
