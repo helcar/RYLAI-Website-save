@@ -144,6 +144,17 @@ img {
   margin: 20px auto 0; /* center in card */
 }
 
+/* Special case: show full photo without cropping */
+.team-photo-full {
+  height: auto;              /* allow natural height */
+  max-height: 220px;         /* prevent overly tall cards */
+  width: auto;               /* preserve aspect ratio */
+  max-width: 220px;
+  object-fit: contain;       /* no cropping */
+  margin: 20px auto 0;
+}
+
+
 .school-logo {
   max-height: 200px;
   object-fit: contain;
